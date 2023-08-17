@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background:plum ;
+  background: -webkit-linear-gradient(to right, #b12572, #eb3bae, #dc3183);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+
+  background-image: url(b6.avif);
+
+}
+
+.do {
+  width: 450px;
+  min-height: 240px;
+  margin: 0 auto;
+  margin-top: 150px;
+  box-shadow: rgb(244, 4, 236) 3px 3px 6px 0px inset,
+    rgba(50, 166, 219, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 30px;
+  background-color:thistle;
+}
+
+.boxx {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: black;
+  font-size: 34px;
+  margin-top: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input {
+  margin-top: 30px;
+  width: 400px;
+  padding: 15px;
+  outline: 0ch;
+  border-radius: 5px;
+  color: mediumblue;
+  outline-style: dotted;
+  outline-color: #0f0c29;
+  font-size: 20px;
+  border: 2px black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.form button {
+  width: 50px;
+  height: 32px;
+  outline: 0ch;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  bottom: 40px;
+  left: 158px;
+  border-radius: 10px;
+  color: rgb(132, 23, 132);
+  border: none;
+  color: rgb(45, 45, 148);
+  transition: 0.5s;
+
+}
+
+.form button:hover {
+  background-color: rgb(139, 24, 126);
+  color: white;
+
+}
+
+.form ul {
+  width: 400px;
+
+
+}
+
+.form ul li {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style: none;
+  margin-bottom: 10px;
+  background-color: rgb(255, 251, 251);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.fa-trash {
+  float: right;
+  padding: 5px;
+  position: relative;
+  bottom: 4px;
+  border-radius: 7px;
+  color: rgb(46, 23, 194);
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.fa-pen-to-square {
+
+  float: right;
+  padding: 5px;
+  position: relative;
+  bottom: 4px;
+
+  cursor: pointer;
+  font-size: 15px;
+
+  margin-left: 7px;
+}
+
+.fa-circle-check {
+  color: rgb(146, 15, 155);
+  float: right;
+  padding: 5px;
+  position: relative;
+  bottom: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: #f4f1f1 3px 3px 6px 0px inset,
+    rgb(251, 251, 251) -3px -3px 6px 1px inset;
+  margin-right: 7px;
+}
+
+p {
+  color: rgba(83, 47, 191, 0.571);
+  font-size: 12px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: bold;
+  position: sticky;
+  left: 700px;
+}
+
+@media screen and (max-width: 1320px) {
+  p {
+    margin-right: 100px;
+  }
+}
